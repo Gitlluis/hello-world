@@ -2,6 +2,10 @@ def add(a, b):
     print "ADDING %d + %d" % (a, b)
     return a + b
 
+def multiply_by_two(a):
+    print "Multiplying by two %d" % (a)
+    return a*2
+
 def subtract(a, b):
     print "SUBTRACTING %d - %d" % (a, b)
     return a - b
